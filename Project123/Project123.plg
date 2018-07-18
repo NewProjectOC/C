@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Project123 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TF\AppData\Local\Temp\RSPCBD0.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Project123.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\C++程序\Project123\define.cpp"
+]
+Creating command line "cl.exe @C:\Users\TF\AppData\Local\Temp\RSPCBD0.tmp" 
+Creating temporary file "C:\Users\TF\AppData\Local\Temp\RSPCBD1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Project123.pdb" /debug /machine:I386 /out:"Debug/Project123.exe" /pdbtype:sept 
+".\Debug\main.obj"
+".\Debug\define.obj"
+]
+Creating command line "link.exe @C:\Users\TF\AppData\Local\Temp\RSPCBD1.tmp"
+<h3>Output Window</h3>
+Compiling...
+define.cpp
+D:\C++程序\Project123\define.cpp(4) : error C2511: 'student::student' : overloaded member function 'void (class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,char)' not found in 'student'
+        d:\c++程序\project123\head.h(6) : see declaration of 'student'
+D:\C++程序\Project123\define.cpp(57) : fatal error C1004: unexpected end of file found
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+Project123.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

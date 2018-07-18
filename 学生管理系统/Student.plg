@@ -1,0 +1,92 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Student - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TF\AppData\Local\Temp\RSPDF98.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Student.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\TF\Desktop\学生管理系统\Student.cpp"
+]
+Creating command line "cl.exe @C:\Users\TF\AppData\Local\Temp\RSPDF98.tmp" 
+Creating temporary file "C:\Users\TF\AppData\Local\Temp\RSPDF99.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Student.pdb" /debug /machine:I386 /out:"Debug/Student.exe" /pdbtype:sept 
+".\Debug\Student.obj"
+]
+Creating command line "link.exe @C:\Users\TF\AppData\Local\Temp\RSPDF99.tmp"
+<h3>Output Window</h3>
+Compiling...
+Student.cpp
+c:\users\tf\desktop\学生管理系统\student.cpp(110) : error C2664: 'strcmp' : cannot convert parameter 2 from 'char' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+c:\users\tf\desktop\学生管理系统\student.cpp(127) : error C2065: 'm' : undeclared identifier
+c:\users\tf\desktop\学生管理系统\student.cpp(127) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(127) : error C2228: left of '.number' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(127) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(127) : error C2228: left of '.name' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(127) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(127) : error C2228: left of '.price' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(127) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(127) : error C2228: left of '.place' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(127) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(127) : error C2228: left of '.sum' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(133) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(133) : error C2228: left of '.number' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(135) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(135) : error C2228: left of '.number' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(135) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(135) : error C2228: left of '.name' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(135) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(135) : error C2228: left of '.price' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(135) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(135) : error C2228: left of '.place' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(135) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(135) : error C2228: left of '.sum' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(153) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(153) : error C2228: left of '.number' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(155) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(155) : error C2228: left of '.number' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(155) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(155) : error C2228: left of '.number' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(156) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(156) : error C2228: left of '.name' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(156) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(156) : error C2228: left of '.name' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(157) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(157) : error C2228: left of '.place' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(157) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(157) : error C2228: left of '.place' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(158) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(158) : error C2228: left of '.price' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(158) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(158) : error C2228: left of '.price' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(159) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(159) : error C2228: left of '.sum' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(159) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(159) : error C2228: left of '.sum' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(169) : error C2065: 'deleTe' : undeclared identifier
+c:\users\tf\desktop\学生管理系统\student.cpp(193) : error C2065: 'lookmenu' : undeclared identifier
+c:\users\tf\desktop\学生管理系统\student.cpp(203) : error C2065: 'rank' : undeclared identifier
+c:\users\tf\desktop\学生管理系统\student.cpp(235) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(235) : error C2228: left of '.number' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(235) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(235) : error C2228: left of '.name' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(235) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(235) : error C2228: left of '.price' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(235) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(235) : error C2228: left of '.place' must have class/struct/union type
+c:\users\tf\desktop\学生管理系统\student.cpp(235) : error C2109: subscript requires array or pointer type
+c:\users\tf\desktop\学生管理系统\student.cpp(235) : error C2228: left of '.sum' must have class/struct/union type
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+Student.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
